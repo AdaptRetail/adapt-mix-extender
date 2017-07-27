@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@lassehaslev/sass-asset-inliner": "^0.2.0",
+    "@lassehaslev/sass-asset-inliner": "^1.0.0",
     "extend": "^3.0.1",
     "laravel-mix": "^1.3.1"
   }
