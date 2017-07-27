@@ -9,7 +9,7 @@ var extendSass = function( mix ) {
     var sassFunction = mix.sass;
     mix.sass = function(src, output, pluginOptions = {}) {
         pluginOptions = {
-            functions: Base64(),
+            functions: Base64,
         }
         return sassFunction.call( this, src, output, pluginOptions );
     }
