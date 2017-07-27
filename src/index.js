@@ -1,5 +1,4 @@
-var Base64 = require( '@lassehaslev/sass-asset-inliner' );
-var extend = require( 'extend' );
+var Base64 = require( '@lassehaslev/sass-asset-inliner' ).default;
 
 /*
  * Extend sass function
