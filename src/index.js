@@ -8,9 +8,7 @@ var extend = require( 'extend' );
 var extendSass = function( mix ) {
     var sassFunction = mix.sass;
     mix.sass = function(src, output, pluginOptions = {}) {
-        pluginOptions = {
-            functions: Base64,
-        }
+        pluginOptions.functions = extend( Base64, pluginOptions.functions );
         return sassFunction.call( this, src, output, pluginOptions );
     }
 }
